@@ -60,4 +60,5 @@ type Host struct {
 	Labels   map[string]string `json:"labels"`
 	UUID     string            `json:"uuid"`
 	Hostname string            `json:"hostname"`
+	Memory   int64             `json:"memory"`
 }
